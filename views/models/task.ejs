@@ -1,0 +1,18 @@
+<% if(task.length) { %> <% task.forEach(function (newTask) { %>
+<div class="task">
+  <div class="task-body">
+    <h2 class="task-title"><%= newTask.title %></h2>
+    <p class="task-text"><%= newTask.description %></p>
+    <div class="task-delete">
+      <a href="/delete/<%= newTask.id %>"> Delete </a>
+    </div>
+  </div>
+</div>
+<% }) %> <% } else { %>
+<div class="not-data">
+  <div class="data-upload">
+    <p>No tasks exist</p>
+    <a href="/create"> Upload </a>
+  </div>
+</div>
+<% } %>

@@ -1,0 +1,11 @@
+<form method="POST" action="/form">
+    <div class="data">
+        <h2> Task create </h2>
+    </div>
+    <input type="text" name="title" autocomplete="off" placeholder="Please, enter a title." />
+    <input type="text" name="description" autocomplete="off" placeholder="Please, enter a description." />
+    <div class="message">
+        <%- include ("../message.ejs") %>
+    </div>
+    <input type="submit" value="Submit" autocomplete="off" />
+</form>
