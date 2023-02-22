@@ -10,7 +10,7 @@
   + DELETE
     * "*/delete/:id*": Elimina la tarea seleccionada por id // Delete the task selected by id.
     
-## Express, Logger y JSON
+## Express y JSON
  [<img src="https://wsofter.ru/wp-content/uploads/2017/12/node-express.png" width=65px />]()
  <img src="https://cdn-icons-png.flaticon.com/512/136/136525.png" width=65px />
  
