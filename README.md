@@ -14,8 +14,8 @@
  [<img src="https://wsofter.ru/wp-content/uploads/2017/12/node-express.png" width=65px />]()
  <img src="https://cdn-icons-png.flaticon.com/512/136/136525.png" width=65px />
  
-## Factory y POO
-  * Proyecto realizado con ciertos patrones de diseño, entre ellos, Factory y POO. Variables de entorno; routes, service, controllers.
-  * Project made with certain design patterns, including Factory and Object-oriented programming. Environment variables; routes, service, controllers.
+## POO
+  * Proyecto realizado con ciertos patrones de diseño, como POO. El proyecto también cuenta con variables de entorno; routes, service, controllers.
+  * Project made with certain design patterns, such as Object-oriented programming. The project also has environment variables; routes, service, controllers.
   
   
