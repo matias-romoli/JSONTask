@@ -15,7 +15,6 @@
  <img src="https://cdn-icons-png.flaticon.com/512/136/136525.png" width=65px />
  
 ## POO
-  * Proyecto realizado con ciertos patrones de diseño, como POO. El proyecto también cuenta con variables de entorno; routes, services, controllers.
-  * Project made with certain design patterns, such as Object-oriented programming. The project also has environment variables; routes, services, controllers.
-  
+* Proyecto realizado con POO (Programación orientada a objetos). El proyecto también cuenta con variables de entorno, routes, services y controllers.
+* Project developed with OOP (Object Oriented Programming). The project also has environment variables, routes, services and controllers.  
   
