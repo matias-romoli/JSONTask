@@ -1,1 +1,239 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");*,*::after,*::before{font-family:"Montserrat",sans-serif;box-sizing:border-box;padding:0px;margin:0px;}::-webkit-scrollbar{display:none;}:root{--background:#16161a;--paragraph:#94a1b2;--btn:#7f5af0;}header{border-bottom:2px solid var(--paragraph);background-color:var(--background);padding:0px 20px;height:60px;}nav >ul{justify-content:right;align-items:center;display:flex;height:60px;}nav >ul >li{padding:0px 5px;list-style:none;}nav >ul >li >a{color:var(--paragraph);text-decoration:none;font-weight:600;}.container{background-color:#16161a;height:calc(100vh - 60px);flex-direction:column;display:flex;width:100%;}.task >.task-body{box-shadow:0px 0px 5px 0px #7f5af0;margin-left:15px;margin-top:20px;width:250px;height:auto;}.task >.task-body >.task-title{color:var(--paragraph);overflow-wrap:break-word;text-align:justify;padding:0px 10px;margin-top:10px;height:auto;}.task >.task-body >.task-text{color:var(--paragraph);overflow-wrap:break-word;text-align:justify;padding:0px 10px;margin-top:10px;height:auto;}.task-body >.task-delete{justify-content:right;align-items:center;padding:0px 10px;display:flex;height:50px;}.task-body >.task-delete a{background-color:var(--btn);color:var(--background);text-decoration:none;border-radius:8px;padding:8px 15px;font-weight:600;transition:0.5s;cursor:pointer;outline:none;}.task-body >.task-delete a:hover{background-color:#7251d3;transition:0.5s;}section{background-color:var(--background);height:calc(100vh - 60px);justify-content:center;align-items:center;display:flex;}form{box-shadow:0px 0px 5px 0px #7f5af0;border:2px solid var(--border);background-color:transparent;flex-direction:column;align-items:center;min-height:250px;display:flex;width:280px;}form >.data{align-items:flex-end;display:flex;height:50px;}form >div >h2{color:var(--paragraph);font-weight:600;}form >input[type="text"],input[type="password"],input[type="email"]{border:none;border-bottom:1px solid var(--border);border-radius:2px;padding:0px 10px;margin-top:15px;outline:none;width:230px;height:40px;background-color:var(--background);}form >input[type="text"],input[type="password"],input[type="email"]::placeholder{border-bottom:2px solid #94a1b2d0;color:var(--paragraph);padding:0px 10px;}form >input[type="submit"]{margin-bottom:20px;border-radius:5px;margin-top:15px;cursor:pointer;outline:none;height:40px;border:none;width:110px;background-color:var(--btn);font-weight:600;color:#272343;}form >input[type="submit"]:hover{background-color:#7251d3;transition:0.5s;}.not-data{height:calc(100vh - 60px);justify-content:center;flex-direction:column;align-items:center;display:flex;width:100%;}.data-upload{border:2px solid #7f5af0;justify-content:center;flex-direction:column;align-items:center;height:150px;width:350px;display:flex;}.data-upload >p{color:var(--paragraph);font-size:18px;}.data-upload >a{text-decoration:none;border-radius:5px;padding:10px 25px;margin-top:10px;transition:0.5s;cursor:pointer;outline:none;border:none;background-color:var(--btn);font-weight:600;color:#272343;}.data-upload >a:hover{background-color:#7251d3;transition:0.5s;}.message{justify-content:center;color:#7251d3;margin-top:10px;display:flex;}@media (max-width:600px){.container{justify-content:center;}}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+*,
+*::after,
+*::before {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --background: #f8f9ff;
+  --paragraph: #94a1b2;
+  --btn: #616ef0;
+}
+
+.container {
+  background-color: var(--background);
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 15px 0px;
+  display: flex;
+  width: 100%;
+}
+.task {
+  background-color: #eae9f6;
+  flex-direction: column;
+  border-radius: 5px;
+  max-width: 1200px;
+  padding: 0px 10px;
+  display: flex;
+  height: auto;
+  width: 50%;
+}
+.task > .task-body {
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  display: flex;
+  height: 70px;
+  width: 100%;
+}
+.body {
+  height: auto;
+  width: 80%;
+}
+.task > .task-body > .body > .task-title {
+  overflow-wrap: break-word;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: #575757a5;
+  font-weight: 600;
+  font-size: 20px;
+  height: auto;
+}
+
+.task > .task-body > .body .task-text {
+  overflow-wrap: break-word;
+  text-align: justify;
+  color: #575757c5;
+  user-select: none;
+  margin-top: 5px;
+  font-size: 12px;
+  height: auto;
+}
+.task-body > .task-delete {
+  justify-content: right;
+  align-items: center;
+  padding: 0px 10px;
+  display: flex;
+  height: 50px;
+}
+.task-delete a {
+  background-color: var(--btn);
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffff;
+  outline: none;
+  display: flex;
+  height: 38px;
+  border: none;
+  width: 100px;
+}
+
+section {
+  background-color: var(--background);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+form {
+  box-shadow: 0px 0px 5px 0px #616ef0;
+  border: 2px solid var(--border);
+  background-color: transparent;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+  display: flex;
+  width: 280px;
+}
+form > .data {
+  align-items: flex-end;
+  display: flex;
+  height: 50px;
+}
+form > div > h2 {
+  color: var(--paragraph);
+  font-weight: 600;
+}
+form > input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--background);
+  border-radius: 2px;
+  padding: 0px 10px;
+  margin-top: 15px;
+  outline: none;
+  width: 230px;
+  height: 40px;
+}
+form > input[type="text"],
+input[type="password"],
+input[type="email"]::placeholder {
+  border-bottom: 2px solid #57575765;
+  color: #575757c5;
+  padding: 0px 10px;
+  width: 190px;
+}
+form > input[type="submit"] {
+  background-color: var(--btn);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffff;
+  outline: none;
+  height: 38px;
+  border: none;
+  width: 100px;
+}
+
+.btn-addtask {
+  background-color: var(--btn);
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffff;
+  outline: none;
+  display: flex;
+  height: 38px;
+  border: none;
+  width: 100px;
+}
+
+.addtask {
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 80px;
+  display: flex;
+  width: 50%;
+}
+
+.not-data {
+  height: calc(100vh - 60px);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.data-upload {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.data-upload > p {
+  color: #575757c5;
+  user-select: none;
+  font-size: 18px;
+}
+.data-upload > a {
+  background-color: var(--btn);
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.message {
+  justify-content: center;
+  margin-bottom: 5px;
+  color: #575757c5;
+  margin-top: 5px;
+  display: flex;
+}
+@media (max-width: 1000px) {
+  .task,
+  .addtask {
+    width: 80%;
+  }
+  .task > .task-body > .body > .task-title {
+    user-select: none;
+    font-size: 13px;
+  }
+
+  .task > .task-body > .body .task-text {
+    font-size: 12px;
+  }
+  .btn-addtask,
+  .task-delete a {
+    height: 34px;
+    width: 90px;
+  }
+}

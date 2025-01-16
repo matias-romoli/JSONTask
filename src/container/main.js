@@ -13,20 +13,25 @@ export class Contenedor {
       return [];
     }
   }
+  _getNextId(data) {
+    return data.length === 0 ? 1 : data[data.length - 1].id + 1;
+  }
   async save(obj) {
+    const date = new Date().toLocaleDateString("es-AR", {
+      year: "numeric",
+      day: "numeric",
+      month: "long",
+      weekday: "long",
+    });
+
     try {
       const data = await this.listAll();
-      let newID;
-
-      if (data.length === 0) {
-        newID = 1;
-      } else {
-        newID = data[data.length - 1].id + 1;
-      }
+      const newID = this._getNextId(data);
 
       data.push({
         id: newID,
         ...obj,
+        date,
       });
 
       await fs.writeFile(this.ruta, JSON.stringify(data, null, 2));

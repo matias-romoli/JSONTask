@@ -9,7 +9,7 @@ import flash from "connect-flash";
 
 app.use(
   session({
-    secret: process.env.SECRET_KEY,
+    secret: "123",
     saveUninitialized: true,
     resave: true,
   })

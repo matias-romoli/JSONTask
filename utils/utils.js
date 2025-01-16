@@ -7,9 +7,9 @@ export function url(data) {
   return __dirname;
 }
 export function verify(req, res, next) {
-  let { title, description } = req.body;
+  let { title } = req.body;
 
-  if (title === "" || description === "") {
+  if (title === "") {
     req.flash("err-task", "Fields cannot be empty.");
     res.redirect("/create");
   } else {

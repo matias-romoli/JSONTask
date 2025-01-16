@@ -1,8 +1,14 @@
-<% if(task.length) { %> <% task.forEach(function (newTask) { %>
+<% if(task.length) { %>
+<div class="addtask">
+  <a href="/create" class="btn-addtask"> Add Task </a>
+</div>
+<% } %> <% if(task.length) { %> <% task.forEach(function (newTask) { %>
 <div class="task">
   <div class="task-body">
-    <h2 class="task-title"><%= newTask.title %></h2>
-    <p class="task-text"><%= newTask.description %></p>
+    <div class="body">
+      <h2 class="task-title"><%= newTask.title %></h2>
+      <p class="task-text"><%= newTask.date %></p>
+    </div>
     <div class="task-delete">
       <a href="/delete/<%= newTask.id %>"> Delete </a>
     </div>
