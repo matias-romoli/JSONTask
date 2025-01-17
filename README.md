@@ -11,10 +11,10 @@
     * "*/delete/:id*": Elimina la tarea seleccionada por id // Delete the task selected by id.
 
 
-### Frontend
+## Frontend
 <div>
   <img src="home.png" width="500" height="300" />
-  <p> Página principal </p>
+  > Página principal.
   <img src="create.png" width="500" height="300" />
     <p> Crear tarea </p>
   <img src="newtask.png" width="500" height="300" />
