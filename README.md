@@ -12,10 +12,13 @@
 
 
 ### Frontend
-<div style="display: flex; flex-direction:column; justify-content: center; gap: 20px;">
+<div>
   <img src="home.png" width="500" height="300" />
+  <p> Página principal </p>
   <img src="create.png" width="500" height="300" />
+    <p> Crear tarea </p>
   <img src="newtask.png" width="500" height="300" />
+    <p> Tarea nueva agregada </p>
 </div>
 
 
