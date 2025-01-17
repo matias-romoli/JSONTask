@@ -27,6 +27,8 @@
   <img src="newtask.png" width="500" height="300" />
 </div>
 
+<br> <!-- Esto agrega un salto de línea -->
+<br> <!-- Esto agrega un salto de línea -->
 >Este es el proceso de la página. Cuando apretas "AddTask", te dirije al apartado /create, dónde se llena con una nueva tarea, y esta, es posteriormente agregada a la lista. // This is the process of the page. When you
 press "AddTask", you go to the /create section, where it is filled with a new task, and this is then added to the list. 
 
