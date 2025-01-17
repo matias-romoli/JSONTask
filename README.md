@@ -20,6 +20,7 @@
 
 ## Express y JSON
  [<img src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png" width=65px />]()
+ [<img src="https://cdn-icons-png.flaticon.com/512/12419/12419185.png" width=65px />]()
  
 ## POO
 * Proyecto realizado con POO (Programación orientada a objetos). El proyecto también cuenta con variables de entorno, routes, services y controllers.
