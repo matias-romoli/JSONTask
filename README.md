@@ -20,7 +20,7 @@
 
 ## Express y JSON
  [<img src="https://wsofter.ru/wp-content/uploads/2017/12/node-express.png" width=65px />]()
- <img src="https://cdn-icons-png.flaticon.com/512/136/136525.png" width=65px />
+ <img src="[https://cdn-icons-png.flaticon.com/512/136/136525.png](https://w7.pngwing.com/pngs/846/87/png-transparent-mean-solution-stack-express-js-node-js-javascript-github-text-trademark-logo-thumbnail.png)" width=65px />
  
 ## POO
 * Proyecto realizado con POO (Programación orientada a objetos). El proyecto también cuenta con variables de entorno, routes, services y controllers.
