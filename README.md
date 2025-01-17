@@ -19,7 +19,7 @@
 
 
 ## Express y JSON
- [<img src="https://e7.pngegg.com/pngimages/846/87/png-clipart-mean-solution-stack-express-js-node-js-javascript-github-text-trademark.png" width=65px />]()
+ [<img src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png" width=65px />]()
  
 ## POO
 * Proyecto realizado con POO (Programación orientada a objetos). El proyecto también cuenta con variables de entorno, routes, services y controllers.
