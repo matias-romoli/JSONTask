@@ -13,9 +13,9 @@
 
 ### Frontend
 
-<img src="home.png" width="500" height="200" />
-<img src="create.png" width="500" height="200" />
-<img src="newtask.png" width="500" height="200" />
+<img src="home.png" width="500" height="300" />
+<img src="create.png" width="500" height="300" />
+<img src="newtask.png" width="500" height="300" />
 
 
 ## Express y JSON
