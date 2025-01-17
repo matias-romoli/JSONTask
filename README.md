@@ -12,12 +12,16 @@
 
 
 ## Frontend
-  <img src="home.png" width="500" height="300" />
-  > @pandao Página principal.
-  <img src="create.png" width="500" height="300" />
-    <p> Crear tarea </p>
-  <img src="newtask.png" width="500" height="300" />
-    <p> Tarea nueva agregada </p>
+
+<img src="home.png" width="500" height="300" />
+<p>@pandao Página principal.</p>
+
+<img src="create.png" width="500" height="300" />
+<p>Crear tarea</p>
+
+<img src="newtask.png" width="500" height="300" />
+<p>Tarea nueva agregada</p>
+
 
 
 
