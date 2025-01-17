@@ -13,20 +13,23 @@
 
 ## Frontend
 
+## Frontend
+
 <div align="center">
   <img src="home.png" width="500" height="300" />
-  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Página principal // main page </pre>
+  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333; width: 500px; height: 300px; margin-top: 20px;"> Página principal // main page </pre>
 </div>
 
 <div align="center">
   <img src="create.png" width="500" height="300" />
-  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Creando tarea // creating task </pre>
+  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333; width: 500px; height: 300px; margin-top: 20px;"> Creando tarea // creating task </pre>
 </div>
 
 <div align="center">
   <img src="newtask.png" width="500" height="300" />
-  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Tarea agregada // added task </pre>
+  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333; width: 500px; height: 300px; margin-top: 20px;"> Tarea agregada // added task </pre>
 </div>
+
 
 
 
