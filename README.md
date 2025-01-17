@@ -14,9 +14,9 @@
 ### Frontend
 
 <div style="display: flex; justify-content: center; width: 100%;">
-  <img src="home.png" width="500" height="300" />
-  <img src="create.png" width="500" height="300" />
-  <img src="newtask.png" width="500" height="300" />
+  <img src="home.png" width="500" height="300" style="max-width: 100%;" />
+  <img src="create.png" width="500" height="300" style="max-width: 100%;" />
+  <img src="newtask.png" width="500" height="300" style="max-width: 100%;" />
 </div>
 
 
