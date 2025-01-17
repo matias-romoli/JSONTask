@@ -13,9 +13,9 @@
 
 ### Frontend
 
-![Descripción de la imagen](home.png)
-![Descripción de la imagen](create.png)
-![Descripción de la imagen](newtask.png)
+![Descripción de la imagen](home.png){: width="300" height="200" }
+![Descripción de la imagen](create.png){: width="300" height="200" }
+![Descripción de la imagen](newtask.png){: width="300" height="200" }
 
 ## Express y JSON
  [<img src="https://wsofter.ru/wp-content/uploads/2017/12/node-express.png" width=65px />]()
