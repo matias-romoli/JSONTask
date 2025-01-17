@@ -13,9 +13,12 @@
 
 ### Frontend
 
-<img src="home.png" width="500" height="300" />
-<img src="create.png" width="500" height="300" />
-<img src="newtask.png" width="500" height="300" />
+<div style="display: flex">
+  <img src="home.png" width="500" height="300" />
+  <img src="create.png" width="500" height="300" />
+  <img src="newtask.png" width="500" height="300" />
+</div>
+
 
 
 ## Express y JSON
