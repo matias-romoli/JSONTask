@@ -13,7 +13,7 @@
 
 ### Frontend
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+<div style="display: flex; justify-content: center">
   <img src="home.png" width="500" height="300" />
   <img src="create.png" width="500" height="300" />
   <img src="newtask.png" width="500" height="300" />
