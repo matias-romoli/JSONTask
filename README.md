@@ -27,7 +27,7 @@
   <img src="newtask.png" width="500" height="300" />
 </div>
 
-<pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Tarea agregada // added task </pre>
+<pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Este es el proceso de la página. Cuando apretas "AddTask", te dirije al apartado /create, dónde se llena con una nueva tarea, y esta, es posteriormente agregada a la lista. // This is the process of the page. When you press "AddTask", you go to the /create section, where it is filled with a new task, and this is then added to the list. </pre>
 
 
 ## Express y JSON
