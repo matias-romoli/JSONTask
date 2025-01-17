@@ -15,24 +15,19 @@
 
 <div align="center">
   <img src="home.png" width="500" height="300" />
-  <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #333; font-weight: bold;"> Página principal // main page </p>
+  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Página principal // main page </pre>
 </div>
 
 <div align="center">
   <img src="create.png" width="500" height="300" />
-  <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #4CAF50; font-weight: bold;">Creando tarea // creating task </p>
+  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Creando tarea // creating task </pre>
 </div>
 
 <div align="center">
   <img src="newtask.png" width="500" height="300" />
-  <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #FF5722; font-weight: bold;"> Tarea agregada // added task </p>
+  <pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;"> Tarea agregada // added task </pre>
 </div>
 
-<pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;">
-  Esta es la descripción de cómo se utilizan las imágenes y cómo se crea una tarea en el sistema.
-  El flujo de trabajo es simple: primero, accedemos a la página principal,
-  luego creamos una nueva tarea, y finalmente, la tarea es agregada a la lista.
-</pre>
 
 
 
