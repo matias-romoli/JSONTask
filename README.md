@@ -28,6 +28,12 @@
   <p style="font-size: 18px; font-family: 'Arial', sans-serif; color: #FF5722; font-weight: bold;"> Tarea agregada // added task </p>
 </div>
 
+<pre style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; font-size: 16px; color: #333;">
+  Esta es la descripción de cómo se utilizan las imágenes y cómo se crea una tarea en el sistema.
+  El flujo de trabajo es simple: primero, accedemos a la página principal,
+  luego creamos una nueva tarea, y finalmente, la tarea es agregada a la lista.
+</pre>
+
 
 
 
